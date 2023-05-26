@@ -40,7 +40,7 @@ print(x)
 def add(b,c):
     print(b+c)
 print(add(1,2) + add(2,3))
-#Aqui imprime 
+#Aqui imprime 3,5
 
 #7
 def concatenate(b,c):
@@ -58,7 +58,7 @@ def number_of_oceans_or_fingers_or_continents():
         return 10
     return 7
 print(number_of_oceans_or_fingers_or_continents())
-
+# Aqui imprime 100 y 10
 
 #9
 def number_of_days_in_a_week_silicon_or_triangle_sides(b,c):
@@ -70,14 +70,14 @@ def number_of_days_in_a_week_silicon_or_triangle_sides(b,c):
 print(number_of_days_in_a_week_silicon_or_triangle_sides(2,3))
 print(number_of_days_in_a_week_silicon_or_triangle_sides(5,3))
 print(number_of_days_in_a_week_silicon_or_triangle_sides(2,3) + number_of_days_in_a_week_silicon_or_triangle_sides(5,3))
-
+#Aqui imprime 7 14 21
 
 #10
 def addition(b,c):
     return b+c
     return 10
 print(addition(3,5))
-
+# Aqui imprime 8
 
 #11
 b = 500
@@ -88,7 +88,7 @@ def foobar():
 print(b)
 foobar()
 print(b)
-
+#Aqui imprime 500 500 300 500
 
 #12
 b = 500
@@ -98,9 +98,9 @@ def foobar():
     print(b)
     return b
 print(b)
-foobar()
+foobar() 
 print(b)
-
+#Aqui imprime 500 500 300 500
 
 #13
 b = 500
@@ -112,7 +112,7 @@ def foobar():
 print(b)
 b=foobar()
 print(b)
-
+#Aqui imprime 500 500 300 300
 
 #14
 def foo():
@@ -122,7 +122,7 @@ def foo():
 def bar():
     print(3)
 foo()
-
+#Aqui imprime 1 3 2
 
 #15
 def foo():
@@ -135,3 +135,4 @@ def bar():
     return 5
 y = foo()
 print(y)
+#Aqui imprime 1 3 5 10
