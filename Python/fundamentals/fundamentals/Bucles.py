@@ -4,7 +4,7 @@ for x in range(0, 151, 1):
 
 #EJERCICIO DOS
 for x in range(5, 1001, 5):
-     print(x)
+    print(x)
 
 #EJERCICIO TRES
 for x in range(1,101):
