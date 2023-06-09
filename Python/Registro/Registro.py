@@ -55,11 +55,11 @@ def main():
 
     while True:
         print("=== Sistema de Asistencia ===")
-        print("1. Agregar Usuario")
-        print("2. Registrar Entrada")
-        print("3. Registrar Salida")
-        print("4. Listar Registros")
-        print("5. Salir")
+        print("1. =====Agregar Usuario======")
+        print("2. =====Registrar Entrada====")
+        print("3. =====Registrar Salida=====")
+        print("4. =====Listar Registros=====")
+        print("5. ==========Salir===========")
 
         opcion = input("Ingrese el número de opción: ")
 

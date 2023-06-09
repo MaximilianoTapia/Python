@@ -19,7 +19,20 @@ class tienda:
             else:
                 print("producto no existe")
         return self
+    
+    def modificar_producto(self, id, precio, categoria):
+        for x in self.list:
+            if x.nombre == id:
+                x.nombre = id
+                x.precio = precio
+                x.categoria = categoria
+                print("producto modificado")
+            else:
+                print("producto no existe")
+        return self
+    
     def listar_producto(self):
         for x in self.list:
             x.imprimir()
         return self
+    
