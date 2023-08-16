@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 class Pet:
 
@@ -74,3 +75,5 @@ adrien = Ninja("Adrien","Dion",my_treats,my_pet_food, nibbles)
 adrien.feed();
 adrien.feed();
 adrien.feed();
+=======
+>>>>>>> 4df5c425a2022e3c17fc5709bce2736c4a3ed089
